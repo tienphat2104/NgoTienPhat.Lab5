@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+       <div class="tab-container">
+        <ul class="tab-header">
+            <li name ="tab-1" class="active" 
+            onclick="tabClicked(this)">Requirement</li>
+            <li name ="tab-2" 
+            onclick="tabClicked(this)">Design</li>
+            <li >
+                <a name="tab-3" href="https://tienphat2104.github.io/Lab5/" style="text-decoration: none;">Implement</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="tab-1" class="tab active">
+                <h2>Requirement</h2>
+                <h1 style="font-weight: bold; font-family: 'Times New Roman', Times, serif; font-size: 30px; margin-top: 15px;">Yêu cầu:</h1>
+                <p> (1) Tạo ra một user scenario
+                    <br>
+                    (2) Chọn 1 bước trong user scenario để thiết kế 1 form giao diện Web trên công cụ thiết kế đã chọn. Sau đó thiết kế trên Figma rồi chuyển sang html tương ứng cho thiết kế này.
+                    Upload lên github: trong file html có chèn hình ảnh của user scenario ở (1) và đường dẫn của file thiết kế ở (2).
+                    </p>
+                <img src="img/html.jpg" alt="">    
+            </div>
+            <div id="tab-2" class="tab">
+                <h2>Design</h2>
+                <div class="img">
+                    <div class="left-img">
+                        <figure>
+                            <img src="img/Anhhtml.png" alt="">
+                        </figure>
+                        <div class="dowload-btn">
+                           <button>
+                            <a style="color: white; text-decoration: none;" href="img/Anhhtml.png" download="img/Anhhtml.png">DOWLOAD</a>
+                           </button>
+                        </div>
+                    </div>
+                    <div class="bottom-img">
+                        <figure>
+                            <img src="img/Figma.png" alt="">
+                        </figure>
+                        <div class="link-Figma">
+                            <button>
+                                <a style="color: white; text-decoration: none;"  href="https://www.figma.com/file/nNihN1xDOlM5lJr6gr9DXr/Untitled?type=design&node-id=6-2&mode=design&t=3wyjZvPHM0o3MPdm-0">FIGMA</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <script src="./Lab5.js "></script>
+    </body>
+</html> 
